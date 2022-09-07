@@ -1,4 +1,4 @@
 {
     "profile_name": "pbs-torque",
-    "immediate_submit": false
+    "account": "UQ-Medicine-Child-Health"
 }

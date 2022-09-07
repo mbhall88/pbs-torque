@@ -1,7 +1,5 @@
-cluster: "pbs-submit.py --depend \"{dependencies}\""
+cluster: "pbs-submit.py -A {{cookiecutter.account}} --depend \"{dependencies}\""
 cluster-status: "pbs-status.py"
 jobscript: "pbs-jobscript.sh"
-jobs: 5000
-immediate-submit: {{cookiecutter.immediate_submit}}
-verbose: true
-notemp: true
+jobs: 500
+use-conda: true
